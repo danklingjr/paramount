@@ -9,8 +9,9 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,900,400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
         <!--[if lt IE 9]>
@@ -22,16 +23,16 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <header role="banner">
+        <header role="banner" class="header">
             <div class="header__top">
-                <a href="" class="branding"><img src="" alt=""></a>
+                <a href="" class="branding"><img src="img/paramount-contracting.jpg" alt="Paramount Contracting"></a>
                 <div class="header__top--contact">
                     <p></p>
                     <a href="" class="button__cta">Get a quote <span>&#62;</span></a>
                 </div>
             </div>
-            <nav role="navigation">
-                <a href="">Home</a>
+            <nav role="navigation" class="main-nav">
+                <a href="" class="selected">Home</a>
                 <a href="">Services</a>
                 <a href="">Industries Served</a>
                 <a href="">Portfolio</a>
@@ -45,7 +46,7 @@
         <section class="content__hero">
             <div class="hero">
                 <ul>
-                    <li><img src="" alt=""></li>
+                    <li><img src="img/feature.jpg" alt=""></li>
                 </ul>
                 <div class="tagline">
                     <i>We have an eye for</i>
@@ -53,8 +54,8 @@
                 </div>
             </div>
             <div class="group">
-                <aside class="grid-2">
-                    <h2>Our Services</h2>
+                <aside class="our-services grid-2 no-margin">
+                    <h3>Our Services</h3>
                     <ul>
                         <li><a href="">Drywall and Shaftwall Systems</a></li>
                         <li><a href="">Exterior/Interior Steel Stud Framing</a></li>
@@ -63,9 +64,10 @@
                         <li><a href="">EIFS - Exterior Insulation Finish System</a></li>
                     </ul>
                 </aside>
-                <div class="grid-4">
+                <div class="intro grid-4 grid-flow-opposite">
                     <b>Welcome to</b>
                     <h1>Paramount Contracting</h1>
+                    <hr>
                     <p>We are an experienced, successful commercial contractor located in Lancaster, PA. establishing a reputation for performance under the most demanding schedules.</p>
                     <p>Paramount Contracting provides services throughout the North Eastern United States including... Pennsylvania, Maryland, New York, Delaware, New Jersey, etc. </p>
                     <p>Our satisfied customers are the key to our growth, as well as our full array of services that include: exterior &amp; interior metal stud framing, drywall &amp; shaftwall systems, wall &amp; ceiling insulation, installation of doors, frames &amp; hardware, acoustical ceilings &amp; walls, GRG column covers.</p>
@@ -80,10 +82,10 @@
                 <a href="" class="button">View all projects <span>&#62;</span></a>
             </header>
             <div class="group">
-                <div class="featured__project grid-2">
+                <div class="featured__project grid-2 ">
                     <a href="">
                         <figure>
-                            <img src="" alt="">
+                            <img src="img/project.jpg" alt="">
                         </figure>
                         <figcaption>
                             <h3>Eden Resort</h3>
@@ -93,7 +95,7 @@
                 <div class="featured__project grid-2">
                     <a href="">
                         <figure>
-                            <img src="" alt="">
+                            <img src="img/project.jpg" alt="">
                         </figure>
                         <figcaption>
                             <h3>Fairfield Place</h3>
@@ -103,7 +105,7 @@
                 <div class="featured__project grid-2">
                     <a href="">
                         <figure>
-                            <img src="" alt="">
+                            <img src="img/project.jpg" alt="">
                         </figure>
                         <figcaption>
                             <h3>LGH-Ann B Barshinger Cancer Center</h3>
@@ -115,7 +117,36 @@
 
         <section class="content__certifications">
             <img src="" alt="">
+            <p class="certification__leed">LEED <span>Certified</span></p>
+            <p class="certification__eif">EIFSmart <span>Certified</span></p>
         </section>
+
+        <section class="content__memberships">
+            <header>
+                <h2>Memberships and Awards</h2>
+                <i>Some of our accomplishments</i>
+            </header>
+            <div class="memberships__awards">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section>
+
+        <footer role="contentinfo">
+            <nav class="main-nav">
+                <a href="">Home</a>
+                <a href="">Services</a>
+                <a href="">Industries Served</a>
+                <a href="">Portfolio</a>
+                <a href="">Who We Are</a>
+                <a href="">Why Choose Us</a>
+                <a href="">Safety</a>
+                <a href="">Contact Us</a>
+            </nav>
+            <p class="copyright">&copy; 2014 Paramount Contracting, Inc. // 219 Witmer Road, Lancaster, OA 17602 // 717-393-9900<br>Designed by WebTek</p>
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

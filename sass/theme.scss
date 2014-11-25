@@ -1,8 +1,105 @@
 /*!////////////////////////////////////////////////
 // THEME
 /////////////////////////////////////////////////*/
-$base-font-size: 16px;
+$font-size: 16px;
 @function em($px, $base: $base-font-size){
 	@return ($px / $base) * 1em;
 }
+body{
+	background-color: #efefef;
+}
+
+/*!////////////////////////////////////////////////
+// COLOR
+/////////////////////////////////////////////////*/
+$primaryColor: #0079c2; //blue
+$secondaryColor: #192d70; //dark blue
+$tertiaryColor: #ff9900; //yellow
+$color1: #101d49; //navy
+$color2: #d68000; //gold
+$color3: #d1d606; //green
+
+
+
+/*!////////////////////////////////////////////////
+// TYPOGRAPHY
+/////////////////////////////////////////////////*/
+$mainFont: 'Lato', sans-serif; /*! normal = 400, bold = 900 */
+
+.font-attr{
+	font-family: $mainFont;
+}
+h1{
+	@extend .font-attr;
+	font-size: em(55px, $font-size);
+}
+h2{
+	@extend .font-attr;
+	font-size: em(32px, $font-size);
+}
+h3{
+	@extend .font-attr;
+	font-size: em(22px, $font-size);
+}
+p{
+	@extend .font-attr;
+	font-size: em(16px, $font-size);
+	margin-bottom: 20px;
+}
+
+
+
+/*!////////////////////////////////////////////////
+// LINKS
+/////////////////////////////////////////////////*/
+a{
+	@extend .font-attr;
+}
+.button__cta{
+	background-color: $tertiaryColor;
+	@extend .font-attr;
+	font-size: em(28px, $font-size);
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 0 10px 20px;
+	span{
+		padding: 10px 20px;
+		background-color: $color2;
+		margin-left: 20px;
+	}
+}
+
+
+/*!////////////////////////////////////////////////
+// NAVIGATION
+/////////////////////////////////////////////////*/
+
+
+
+
+/*!////////////////////////////////////////////////
+// IMAGES
+/////////////////////////////////////////////////*/
+
+
+
+
+/*!////////////////////////////////////////////////
+// FORMS
+/////////////////////////////////////////////////*/
+
+
+
+
+/*!////////////////////////////////////////////////
+// OTHER ELEMENTS
+/////////////////////////////////////////////////*/
+hr{
+	width: 100%;
+	max-width: 215px;
+	border-bottom: 8px solid #efefef;
+	border-top: none;
+}
+
+
 
