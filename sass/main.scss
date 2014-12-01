@@ -14,29 +14,44 @@ header[role=banner]{
 }
 .header__top{
 	padding: 40px 0 40px 20px;
+	position: relative;
 }
 .header__top--contact{
-	float: right;
+	position: absolute;
+	right: 0;
+	top: 60px;
 }
-nav[role=navigation]{
+.phone{
+	display: inline-block;
+	@extend .font-attr;
+	font-size: em(28px, $font-size);
+	font-weight: bold;
+	margin-right: 20px;
+}
+nav[role=navigation],
+.main-nav{
 	position: relative;
 	width: 100%;
 	background-color: $secondaryColor;
+	font-size: 0;
 	text-align: center;
 	a{
 		position: relative;
 		z-index: 5;
 		display: inline-block;
 		border-bottom: 5px solid #fff;
-		font-size: em(20px, $font-size);
+		font-size: 20px;
 		font-weight: bold;
 		color: #fff;
 		text-transform: uppercase;
 		text-decoration: none;
-		padding: 25px 15px;
+		padding: 20px 15px;
+		@include prefix(transition, 0.1s ease-in-out);
 		&:hover,
 		&:focus{
-			
+			background-color: $color1;
+			color: $primaryColor;
+			border-bottom: 5px solid $primaryColor;
 		}
 	}
 	a:after{
@@ -55,11 +70,15 @@ nav[role=navigation]{
 	}
 	.selected{
 		background-color: $color1;
-		border-bottom: 5px solid $primaryColor ;
-		color: $primaryColor ;
+		border-bottom: 5px solid $primaryColor;
+		color: $primaryColor;
 	}
 }
-
+.main-nav{
+	a{
+		border-bottom: 5px solid $secondaryColor;
+	}
+}
 nav[role=navigation]:after{
 	content: "";
 	position: absolute;
@@ -69,13 +88,25 @@ nav[role=navigation]:after{
 	height: 5px;
 	background-color: #fff;
 }
-*[class^="content__"]{
+.content{
 	background-color: #fff;
 	width: 90%;
 	margin: 0 auto 30px;
 	padding: 30px;
+	header{
+		h2{
+			line-height: 1.2em;
+		}
+		i{
+			@extend .font-attr;
+			font-size: em(22px, $font-size);
+		}
+	}
 }
-.content__hero{
+.branding{
+	float: left;
+}
+.hero{
 	padding: 0;
 	position: relative;
 	img{
@@ -123,6 +154,10 @@ nav[role=navigation]:after{
 			color: #fff;
 			text-decoration: none;
 			margin: 50px 0;
+			&:hover,
+			&:focus{
+				color: $secondaryColor;
+			}
 		}
 		a:first-child{
 			margin: 10px 0 50px !important;
@@ -161,7 +196,8 @@ nav[role=navigation]:after{
 }
 
 
-.content__featured{
+.featured{
+	position: relative;
 	padding: 30px 0;
 	header{
 		padding: 0 30px 30px;
@@ -173,7 +209,7 @@ nav[role=navigation]:after{
 		img{
 			width: 100%;
 		}
-	}
+	} 
 	figcaption{
 		position: absolute;
 		bottom: 0;
@@ -181,12 +217,69 @@ nav[role=navigation]:after{
 		background-color: transparentize($secondaryColor,0.05);
 		padding: 20px;
 		border-bottom: 10px solid $color1;
+		@include prefix(transition, 0.2s ease-in-out);
 		h3{
 			font-size: em(22px, $font-size);
 			color: #fff;
 		}
 	}
 }
+.featured__project:hover,
+.featured__project:focus{
+	figcaption{
+		padding: 30px 20px;
+	}
+}
+
+
+.certifications{
+	position: relative;
+	padding: 0;
+	img{
+		width: 100%;
+	}
+}
+.certifications__leed,
+.certifications__eif{
+	position: absolute;
+	font-family: $mainFont;
+	font-size: em(55px, $font-size);
+	color: #fff;
+	padding: 15px 30px;
+	span{
+		font-style: italic;
+	}
+}
+.certifications__leed{
+	background-color: $color3;
+	bottom: 137px;
+}
+.certifications__eif{
+	background-color: $primaryColor;
+	bottom: 20px;
+}
+.memberships__awards{
+	text-align: center;
+	img{
+		margin: 0;
+	}
+}
+.footer{
+	padding: 0 0 30px 0;
+	background-color: $secondaryColor;
+	margin: 0 auto 0 !important;
+}
+.copyright{
+	@extend .font-attr;
+	font-size: em(18px, $font-size);
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+	margin: 20px 0 0;
+}
+
+
+
 
 
 /*!////////////////////////////////////////////////

@@ -68,6 +68,22 @@ a{
 		margin-left: 20px;
 	}
 }
+.button__normal{
+	background-color: $primaryColor;
+	@extend .font-attr;
+	font-size: em(22px, $font-size);
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 0 10px 20px;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	span{
+		padding: 10px 15px;
+		background-color: #0068a6;
+		margin-left: 20px;
+	}
+}
 
 
 /*!////////////////////////////////////////////////
