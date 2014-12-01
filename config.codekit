@@ -65,6 +65,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/abc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15928,
+		"inputAbbreviatedPath": "\/img\/abc.jpg",
+		"outputAbbreviatedPath": "\/img\/abc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/awci.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6943,
+		"inputAbbreviatedPath": "\/img\/awci.jpg",
+		"outputAbbreviatedPath": "\/img\/awci.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/certifications-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 338131,
+		"inputAbbreviatedPath": "\/img\/certifications-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/certifications-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/drywall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145848,
+		"inputAbbreviatedPath": "\/img\/drywall.jpg",
+		"outputAbbreviatedPath": "\/img\/drywall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/feature.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -72,6 +116,61 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/feature.jpg",
 		"outputAbbreviatedPath": "\/img\/feature.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/green-advantage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24578,
+		"inputAbbreviatedPath": "\/img\/green-advantage.jpg",
+		"outputAbbreviatedPath": "\/img\/green-advantage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/paramount-contracting.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20504,
+		"inputAbbreviatedPath": "\/img\/paramount-contracting.jpg",
+		"outputAbbreviatedPath": "\/img\/paramount-contracting.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1359,
+		"inputAbbreviatedPath": "\/img\/phone.png",
+		"outputAbbreviatedPath": "\/img\/phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/project.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125927,
+		"inputAbbreviatedPath": "\/img\/project.jpg",
+		"outputAbbreviatedPath": "\/img\/project.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/top-50.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14789,
+		"inputAbbreviatedPath": "\/img\/top-50.jpg",
+		"outputAbbreviatedPath": "\/img\/top-50.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -241,6 +340,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/service.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/service.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

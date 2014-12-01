@@ -28,6 +28,7 @@ $mainFont: 'Lato', sans-serif; /*! normal = 400, bold = 900 */
 
 .font-attr{
 	font-family: $mainFont;
+	color: #252525;
 }
 h1{
 	@extend .font-attr;
@@ -66,6 +67,15 @@ a{
 		padding: 10px 20px;
 		background-color: $color2;
 		margin-left: 20px;
+		@include prefix(transition, 0.2s ease-in-out);
+	}
+	@include prefix(transition, 0.2s ease-in-out);
+	&:hover,
+	&:focus{
+		background-color: $color2;
+		span{
+			background-color: $tertiaryColor;
+		}
 	}
 }
 .button__normal{
@@ -82,6 +92,15 @@ a{
 		padding: 10px 15px;
 		background-color: #0068a6;
 		margin-left: 20px;
+		@include prefix(transition, 0.2s ease-in-out);
+	}
+	@include prefix(transition, 0.2s ease-in-out);
+	&:hover,
+	&:focus{
+		background-color: #0068a6;
+		span{
+			background-color: $primaryColor;
+		}
 	}
 }
 

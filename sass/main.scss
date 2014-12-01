@@ -16,17 +16,35 @@ header[role=banner]{
 	padding: 40px 0 40px 20px;
 	position: relative;
 }
+.branding{
+	float: none;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	@media screen and (min-width: 880px){
+		float: left;
+		margin-bottom: 0;
+	}
+}
 .header__top--contact{
-	position: absolute;
-	right: 0;
-	top: 60px;
+	position: relative;
+	text-align: center;
+	@media screen and (min-width: 880px){
+		position: absolute;
+		right: 0;
+		top: 60px;
+		text-align: right;
+	}
 }
 .phone{
-	display: inline-block;
+	display: block;
 	@extend .font-attr;
 	font-size: em(28px, $font-size);
 	font-weight: bold;
 	margin-right: 20px;
+	@media screen and (min-width: 650px){
+		display: inline-block;
+	}
 }
 nav[role=navigation],
 .main-nav{
@@ -45,13 +63,21 @@ nav[role=navigation],
 		color: #fff;
 		text-transform: uppercase;
 		text-decoration: none;
-		padding: 20px 15px;
+		padding: 20px 30px;
 		@include prefix(transition, 0.1s ease-in-out);
 		&:hover,
 		&:focus{
 			background-color: $color1;
 			color: $primaryColor;
 			border-bottom: 5px solid $primaryColor;
+		}
+		@media screen and (min-width: 1035px){
+			font-size: 16px;
+			padding: 20px 10px;
+		}
+		@media screen and (min-width: 1342px){
+			font-size: 20px;
+			padding: 20px 15px;
 		}
 	}
 	a:after{
@@ -102,9 +128,6 @@ nav[role=navigation]:after{
 			font-size: em(22px, $font-size);
 		}
 	}
-}
-.branding{
-	float: left;
 }
 .hero{
 	padding: 0;
@@ -196,12 +219,16 @@ nav[role=navigation]:after{
 }
 
 
-.featured{
+.featured,
+.industries{
 	position: relative;
 	padding: 30px 0;
 	header{
 		padding: 0 30px 30px;
 	}
+}
+.industries:nth-of-type(1){
+	margin-top: 30px;
 }
 .featured__project{
 	position: relative;
@@ -264,6 +291,37 @@ nav[role=navigation]:after{
 		margin: 0;
 	}
 }
+
+
+.service{
+	// margin-top: 30px;
+	padding: 0;
+}
+.service__graphic{
+	min-height: 600px;
+	background-repeat: none;
+	background-position: center center;
+	background-size: cover;
+	img{
+		width: 100%;
+	}
+}
+.service__description{
+	padding: 30px;
+	h1{
+		font-size: em(42px, $font-size);
+	}
+	p,li{
+		font-size: em(20px, $font-size);
+	}
+	li{
+		@extend .font-attr;
+		font-weight: bold;
+		margin-left: 20px;
+	}
+}
+
+
 .footer{
 	padding: 0 0 30px 0;
 	background-color: $secondaryColor;
