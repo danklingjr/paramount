@@ -1,1 +1,3 @@
-
+$('.flexslider').flexslider({
+	directionNav: false 
+});

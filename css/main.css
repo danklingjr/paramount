@@ -596,6 +596,7 @@ nav[role=navigation]:after {
 .tagline {
   width: 100%;
   position: absolute;
+  z-index: 2;
   top: 0;
   margin-top: 10%;
   text-align: center; }
@@ -618,6 +619,7 @@ nav[role=navigation]:after {
   background-color: #0079c2;
   padding: 30px;
   position: absolute;
+  z-index: 2;
   left: 0;
   bottom: 0; }
   .our-services li {
