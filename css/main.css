@@ -517,12 +517,12 @@ nav[role=navigation],
     z-index: 5;
     display: inline-block;
     border-bottom: 5px solid #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 10px;
     -webkit-transition: 0.1s ease-in-out;
     -moz-transition: 0.1s ease-in-out;
     -o-transition: 0.1s ease-in-out;
@@ -537,12 +537,12 @@ nav[role=navigation],
       nav[role=navigation] a,
       .main-nav a {
         font-size: 16px;
-        padding: 20px 10px; } }
+        padding: 20px 20px; } }
     @media screen and (min-width: 1342px) {
       nav[role=navigation] a,
       .main-nav a {
         font-size: 20px;
-        padding: 20px 15px; } }
+        padding: 20px 30px; } }
   nav[role=navigation] a:after,
   .main-nav a:after {
     content: "";
@@ -724,6 +724,7 @@ nav[role=navigation]:after {
     margin: 0; }
 
 .service {
+  margin-top: 30px;
   padding: 0; }
 
 .service__graphic {

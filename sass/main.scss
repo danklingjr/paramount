@@ -58,12 +58,12 @@ nav[role=navigation],
 		z-index: 5;
 		display: inline-block;
 		border-bottom: 5px solid #fff;
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: bold;
 		color: #fff;
 		text-transform: uppercase;
 		text-decoration: none;
-		padding: 20px 30px;
+		padding: 20px 10px;
 		@include prefix(transition, 0.1s ease-in-out);
 		&:hover,
 		&:focus{
@@ -73,11 +73,11 @@ nav[role=navigation],
 		}
 		@media screen and (min-width: 1035px){
 			font-size: 16px;
-			padding: 20px 10px;
+			padding: 20px 20px;
 		}
 		@media screen and (min-width: 1342px){
 			font-size: 20px;
-			padding: 20px 15px;
+			padding: 20px 30px;
 		}
 	}
 	a:after{
@@ -294,7 +294,7 @@ nav[role=navigation]:after{
 
 
 .service{
-	// margin-top: 30px;
+	margin-top: 30px;
 	padding: 0;
 }
 .service__graphic{
