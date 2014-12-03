@@ -129,6 +129,20 @@ nav[role=navigation]:after{
 		}
 	}
 }
+.content__description{
+	padding: 0 30px 30px;
+	h1{
+		font-size: em(42px, $font-size);
+	}
+	p,li{
+		font-size: em(20px, $font-size);
+	}
+	li{
+		@extend .font-attr;
+		font-weight: bold;
+		margin-left: 20px;
+	}
+}
 .hero{
 	padding: 0;
 	position: relative;
@@ -154,13 +168,20 @@ nav[role=navigation]:after{
 		@include prefix(text-shadow, 2px 0 25px rgba(0,0,0,1));
 	}
 	i{
-		font-size: em(50px, $font-size);
+		font-size: em(25px, $font-size);
 		font-style: normal;
+		@media screen and (min-width: 1065px){
+			font-size: em(50px, $font-size);
+		}
 	}
 	b{
-		font-size: em(115px, $font-size);
+		font-size: em(75px, $font-size);
 		font-style: italic;
+		@media screen and (min-width: 1065px){
+			font-size: em(115px, $font-size);
+		}
 	}
+	
 }
 .our-services{
 	background-color: $primaryColor;
@@ -309,18 +330,7 @@ nav[role=navigation]:after{
 	}
 }
 .service__description{
-	padding: 30px;
-	h1{
-		font-size: em(42px, $font-size);
-	}
-	p,li{
-		font-size: em(20px, $font-size);
-	}
-	li{
-		@extend .font-attr;
-		font-weight: bold;
-		margin-left: 20px;
-	}
+	@extend .content__description;
 }
 
 
@@ -336,6 +346,69 @@ nav[role=navigation]:after{
 	color: #fff;
 	text-align: center;
 	margin: 20px 0 0;
+}
+
+.management{
+	margin-top: 30px;
+}
+.management__member{
+	position: relative;
+	img{
+		width: 100%;
+	}
+	figcaption{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: $primaryColor;
+		padding: 10px;
+		color: #252525;
+		h3{
+			color: #fff;
+		}
+	}
+}
+.history{
+	@extend .our-services;
+	position: relative;
+	li{
+		position: relative;
+		list-style: none;
+		line-height: 1.1em;
+		color: #fff;
+		text-decoration: none;
+		margin: 50px 0;
+		&:first-child{
+			margin: 10px 0 50px !important;
+		}
+		&:last-child{
+			margin: 50px 0 0; 
+		}
+		b{
+			font-size: em(26px, $font-size);
+			font-weight: bold;
+		}
+		i{
+			font-size: em(26px, $font-size);
+			font-weight: normal;
+			font-style: normal;
+			line-height: 1.4em;
+		}
+	}
+	li:after{
+		content: "";
+		position: absolute;
+		bottom: -28px;
+		left: 0;
+		width: 100%;
+		height: 8px;
+		background-color: #1a87c8;
+	}
+	li:last-child:after{
+		content: "";
+		display: none;
+	}
 }
 
 

@@ -376,7 +376,7 @@ body {
 // TYPOGRAPHY
 /////////////////////////////////////////////////*/
 /*! normal = 400, bold = 900 */
-.font-attr, h1, h2, h3, p, a, .button__cta, .button__normal, .phone, .content header i, .tagline i, .tagline b, .service__description li, .copyright {
+.font-attr, h1, h2, h3, p, a, .button__cta, .button__normal, .phone, .content header i, .content__description li, .service__description li, .tagline i, .tagline b, .copyright {
   font-family: "Lato", sans-serif;
   color: #252525; }
 
@@ -585,6 +585,16 @@ nav[role=navigation]:after {
   .content header i {
     font-size: 1.375em; }
 
+.content__description, .service__description {
+  padding: 0 30px 30px; }
+  .content__description h1, .service__description h1 {
+    font-size: 2.625em; }
+  .content__description p, .service__description p, .content__description li, .service__description li {
+    font-size: 1.25em; }
+  .content__description li, .service__description li {
+    font-weight: bold;
+    margin-left: 20px; }
+
 .hero {
   padding: 0;
   position: relative; }
@@ -609,22 +619,28 @@ nav[role=navigation]:after {
     -o-text-shadow: 2px 0 25px black;
     text-shadow: 2px 0 25px black; }
   .tagline i {
-    font-size: 3.125em;
+    font-size: 1.5625em;
     font-style: normal; }
+    @media screen and (min-width: 1065px) {
+      .tagline i {
+        font-size: 3.125em; } }
   .tagline b {
-    font-size: 7.1875em;
+    font-size: 4.6875em;
     font-style: italic; }
+    @media screen and (min-width: 1065px) {
+      .tagline b {
+        font-size: 7.1875em; } }
 
-.our-services {
+.our-services, .history {
   background-color: #0079c2;
   padding: 30px;
   position: absolute;
   z-index: 2;
   left: 0;
   bottom: 0; }
-  .our-services li {
+  .our-services li, .history li {
     position: relative; }
-    .our-services li a {
+    .our-services li a, .history li a {
       display: block;
       font-size: 2em;
       font-weight: bold;
@@ -632,20 +648,20 @@ nav[role=navigation]:after {
       color: #fff;
       text-decoration: none;
       margin: 50px 0; }
-      .our-services li a:hover, .our-services li a:focus {
+      .our-services li a:hover, .history li a:hover, .our-services li a:focus, .history li a:focus {
         color: #192d70; }
-    .our-services li a:first-child {
+    .our-services li a:first-child, .history li a:first-child {
       margin: 10px 0 50px !important; }
-    .our-services li a:last-child {
+    .our-services li a:last-child, .history li a:last-child {
       margin: 50px 0 0; }
-  .our-services li:after {
+  .our-services li:after, .history li:after {
     content: "";
     position: absolute;
     bottom: -28px;
     width: 100%;
     height: 8px;
     background-color: #1a87c8; }
-  .our-services li:last-child:after {
+  .our-services li:last-child:after, .history li:last-child:after {
     content: "";
     display: none; }
 
@@ -737,16 +753,6 @@ nav[role=navigation]:after {
   .service__graphic img {
     width: 100%; }
 
-.service__description {
-  padding: 30px; }
-  .service__description h1 {
-    font-size: 2.625em; }
-  .service__description p, .service__description li {
-    font-size: 1.25em; }
-  .service__description li {
-    font-weight: bold;
-    margin-left: 20px; }
-
 .footer {
   padding: 0 0 30px 0;
   background-color: #192d70;
@@ -758,6 +764,57 @@ nav[role=navigation]:after {
   color: #fff;
   text-align: center;
   margin: 20px 0 0; }
+
+.management {
+  margin-top: 30px; }
+
+.management__member {
+  position: relative; }
+  .management__member img {
+    width: 100%; }
+  .management__member figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0079c2;
+    padding: 10px;
+    color: #252525; }
+    .management__member figcaption h3 {
+      color: #fff; }
+
+.history {
+  position: relative; }
+  .history li {
+    position: relative;
+    list-style: none;
+    line-height: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    margin: 50px 0; }
+    .history li:first-child {
+      margin: 10px 0 50px !important; }
+    .history li:last-child {
+      margin: 50px 0 0; }
+    .history li b {
+      font-size: 1.625em;
+      font-weight: bold; }
+    .history li i {
+      font-size: 1.625em;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.4em; }
+  .history li:after {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #1a87c8; }
+  .history li:last-child:after {
+    content: "";
+    display: none; }
 
 /*!////////////////////////////////////////////////
 // STATES
