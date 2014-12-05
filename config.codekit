@@ -38,7 +38,7 @@
 		"outputAbbreviatedPath": "\/css\/images\/bg_play_pause.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/layout.css": {
 		"fileType": 16,
@@ -94,7 +94,7 @@
 		"outputAbbreviatedPath": "\/img\/abc.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/awci.jpg": {
 		"fileType": 16384,
@@ -105,7 +105,18 @@
 		"outputAbbreviatedPath": "\/img\/awci.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/brian-zuschmidt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30152,
+		"inputAbbreviatedPath": "\/img\/brian-zuschmidt.jpg",
+		"outputAbbreviatedPath": "\/img\/brian-zuschmidt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/certifications-bg.jpg": {
 		"fileType": 16384,
@@ -116,7 +127,7 @@
 		"outputAbbreviatedPath": "\/img\/certifications-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/drywall.jpg": {
 		"fileType": 16384,
@@ -127,7 +138,7 @@
 		"outputAbbreviatedPath": "\/img\/drywall.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature-2.jpg": {
 		"fileType": 16384,
@@ -138,7 +149,7 @@
 		"outputAbbreviatedPath": "\/img\/feature-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature-3.jpg": {
 		"fileType": 16384,
@@ -149,7 +160,7 @@
 		"outputAbbreviatedPath": "\/img\/feature-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature-4.jpg": {
 		"fileType": 16384,
@@ -160,7 +171,7 @@
 		"outputAbbreviatedPath": "\/img\/feature-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature-5.jpg": {
 		"fileType": 16384,
@@ -171,7 +182,7 @@
 		"outputAbbreviatedPath": "\/img\/feature-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature-6.jpg": {
 		"fileType": 16384,
@@ -182,7 +193,7 @@
 		"outputAbbreviatedPath": "\/img\/feature-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature-7.jpg": {
 		"fileType": 16384,
@@ -193,7 +204,7 @@
 		"outputAbbreviatedPath": "\/img\/feature-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/feature.jpg": {
 		"fileType": 16384,
@@ -204,7 +215,7 @@
 		"outputAbbreviatedPath": "\/img\/feature.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/green-advantage.jpg": {
 		"fileType": 16384,
@@ -215,7 +226,62 @@
 		"outputAbbreviatedPath": "\/img\/green-advantage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/jamie-philpot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21553,
+		"inputAbbreviatedPath": "\/img\/jamie-philpot.jpg",
+		"outputAbbreviatedPath": "\/img\/jamie-philpot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/jeff-mylin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26791,
+		"inputAbbreviatedPath": "\/img\/jeff-mylin.jpg",
+		"outputAbbreviatedPath": "\/img\/jeff-mylin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/jim-wolpert.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25730,
+		"inputAbbreviatedPath": "\/img\/jim-wolpert.jpg",
+		"outputAbbreviatedPath": "\/img\/jim-wolpert.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/jon-christman.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25741,
+		"inputAbbreviatedPath": "\/img\/jon-christman.jpg",
+		"outputAbbreviatedPath": "\/img\/jon-christman.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/kurt-loudenslager.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24385,
+		"inputAbbreviatedPath": "\/img\/kurt-loudenslager.jpg",
+		"outputAbbreviatedPath": "\/img\/kurt-loudenslager.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/paramount-contracting.jpg": {
 		"fileType": 16384,
@@ -226,7 +292,7 @@
 		"outputAbbreviatedPath": "\/img\/paramount-contracting.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/phone.png": {
 		"fileType": 32768,
@@ -237,7 +303,7 @@
 		"outputAbbreviatedPath": "\/img\/phone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/project.jpg": {
 		"fileType": 16384,
@@ -248,7 +314,7 @@
 		"outputAbbreviatedPath": "\/img\/project.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team.jpg": {
 		"fileType": 16384,
@@ -259,7 +325,7 @@
 		"outputAbbreviatedPath": "\/img\/team.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/team.png": {
 		"fileType": 32768,
@@ -270,7 +336,18 @@
 		"outputAbbreviatedPath": "\/img\/team.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/tim-eckman.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24463,
+		"inputAbbreviatedPath": "\/img\/tim-eckman.jpg",
+		"outputAbbreviatedPath": "\/img\/tim-eckman.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/top-50.jpg": {
 		"fileType": 16384,
@@ -281,7 +358,7 @@
 		"outputAbbreviatedPath": "\/img\/top-50.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,

@@ -189,7 +189,7 @@ textarea {
 
   .grid-flow-opposite {
     float: right; } }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 800px) {
   .grid-1 {
     width: 15.404040404%; }
     .grid-1:nth-child(n) {
@@ -609,7 +609,8 @@ nav[role=navigation]:after {
   z-index: 2;
   top: 0;
   margin-top: 10%;
-  text-align: center; }
+  text-align: center;
+  display: none; }
   .tagline i, .tagline b {
     display: block;
     line-height: 1;
@@ -630,14 +631,14 @@ nav[role=navigation]:after {
     @media screen and (min-width: 1065px) {
       .tagline b {
         font-size: 7.1875em; } }
+  @media screen and (min-width: 800px) {
+    .tagline {
+      display: block; } }
 
 .our-services, .history {
   background-color: #0079c2;
   padding: 30px;
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  bottom: 0; }
+  position: relative; }
   .our-services li, .history li {
     position: relative; }
     .our-services li a, .history li a {
@@ -664,6 +665,12 @@ nav[role=navigation]:after {
   .our-services li:last-child:after, .history li:last-child:after {
     content: "";
     display: none; }
+  @media screen and (min-width: 800px) {
+    .our-services, .history {
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      bottom: 0; } }
 
 .intro {
   padding: 50px; }
@@ -783,6 +790,13 @@ nav[role=navigation]:after {
     .management__member figcaption h3 {
       color: #fff; }
 
+.about {
+  padding: 0;
+  margin-top: 30px; }
+
+.about__description {
+  padding-top: 30px; }
+
 .history {
   position: relative; }
   .history li {
@@ -800,7 +814,7 @@ nav[role=navigation]:after {
       font-size: 1.625em;
       font-weight: bold; }
     .history li i {
-      font-size: 1.625em;
+      font-size: 1.375em;
       font-weight: normal;
       font-style: normal;
       line-height: 1.4em; }
